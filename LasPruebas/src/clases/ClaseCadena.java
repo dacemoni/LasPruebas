@@ -3,6 +3,7 @@ package clases;
 public class ClaseCadena {
 
     public static void DevuelveIniciales(String nombreApellidos) {
+        // Aplicacion del patron de diseño facade
         StringBuffer iniciales = new StringBuffer();
         if (nombreApellidos == null || nombreApellidos.equals("")) {
             iniciales.append("");
